@@ -17,7 +17,7 @@ jobs:
       - run:
           name: "Say hello"
           command: "echo Hello, World!"
-      - run: "echo $myvar"
+      - run: "echo {$myvar}"
       # test
 
 # Invoke jobs via workflows
